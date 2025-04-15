@@ -1,0 +1,33 @@
+# Project results directory
+/results/
+*_model.pkl
+*_shap_values.npy
+*.png
+
+# Data files
+/data/
+*.txt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
